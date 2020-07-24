@@ -1418,29 +1418,60 @@
 
 
 
-/*----------------------------CHAPTER --58 to 67--------------------------------------------*/
+/*----------------------------CHAPTER --58 to 67--45------------------------------------------*/
 
 /*----------------------------------PART 1---------------------------------------------*/
 //  var a =document.getElementById('form-content')
 //  console.log(a.nodeType)
 /*-----------------------------TASK 2------------------------------*/
-// var za  = document.getElementById("main-content");
-//   console.log(hello);
+// var a= document.getElementById("maincontent").children;
+// console.log(a);
+/*---------------------------------------TASK 3------------------------------*/
+// var a=document.getElementsByClassName("render")[0];
+// var a=document.getElementsByClassName("render")[1];
+// var a=document.getElementsByClassName("render")[2];
+// var a=document.getElementsByClassName("render")[3];
 
-
-/*----------------------------------PART 2---------------------------------------------*/
+// console.log(a);
+/*----------------------------------PART 2----3-----------------------------------------*/
 /*-------------------------------------TASK 1----------------------------------------*/
+// var a= document.getElementById("formcontent");
+// console.log(a.nodeType);
 
 
+// /*----------------------------------PART 2---------------------------------------------*/
+// /*-----------------------------nodetype--------------------------*/
+// var a= document.getElementById("last-name");
+// console.log(a.nodeType);
+// /*-----------------------child nodes-------------------------------*/
+// var a= document.getElementById("last-name").childNodes;
+// console.log(a);
 
 
-// var a =document.getElementById('secondson')
-// console.log(a.nodeType)
-
-/*----------------------------------PART 3---------------------------------------------*/
 /*----------------------------------PART 4---------------------------------------------*/
+/*------------------first child-------------------------------*/
+//  var a=document.getElementById("maincontent").children[0];
+// console.log(a);
+// /*------------------last child-------------------------------*/
+// var a=document.getElementById("maincontent").children[4];
+
+// console.log(a);
+
+
+
 /*----------------------------------PART 5---------------------------------------------*/
+// var a= document.getElementById("lastname").nextElementSibling;
+// console.log(a);
+
+// var a= document.getElementById("lastname").previousElementSibling;
+// console.log(a);
+
 /*----------------------------------PART 6---------------------------------------------*/
+// var a= document.getElementById("email");
+// console.log(a.parentNode);
+
+//  var a= document.getElementById("email");
+//  console.log(a.nodeType);
 
 
 
